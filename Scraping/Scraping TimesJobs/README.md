@@ -41,10 +41,14 @@ pip install -r requirements.txt
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/elbehwash0/Python_Projects/tree/main/Scraping
-   cd "Scraping TimesJobs"
+   git clone https://github.com/elbehwash0/Python_Projects.git
    ```
+   Navigate to the Scraping TimesJobs Directory:
 
+   ```bash
+   cd Python_Projects/Scraping/Scraping\ TimesJobs
+   ```
+   
 2. Ensure that the `CHROMEDRIVER_PATH` variable in `Selenium_scrapper.py` points to your local ChromeDriver executable location.
 
 3. In `csv_Handler.py`, modify the `csv_path` variable to specify your desired output folder. **By default, it is set to a specific local path and must be changed to run successfully on your system.**
